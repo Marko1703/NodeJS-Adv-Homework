@@ -1,5 +1,6 @@
 import { Course } from "../models/course.model.js";
 import { Student } from "../models/student.model.js";
+import { Trainer } from "../models/trainer.model.js";
 
 export class CourseService {
   //1. Get all courses
@@ -11,10 +12,9 @@ export class CourseService {
   //2. Get course by id
   static async getCourseById(courseId) {
     // Populate takes a property and if it finds a reference to another collection it fetches the data and populates the documents
-    const foundCourse = await Course.findById(courseId).populate({
-      path: "students",
-      model: Student,
-    });
+    const foundCourse = await Course.findById(courseId)
+        .populate({ path: "students", model: Student })
+        .populate({ path: "trainers", model: Trainer });
 
     if (!foundCourse) throw new Error("Course Not Found");
 
