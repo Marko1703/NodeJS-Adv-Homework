@@ -28,7 +28,8 @@ export class CourseService {
 
     return createdCourse;
   }
-
+  
+  //4. Delete Course
   static async deleteCourse(courseId) {
     const response = await Course.findByIdAndDelete(courseId);
 
