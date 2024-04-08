@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "98756191-34d5-49d3-b32c-362fa2eaea78",
+		"name": "Adv-NodeJS-Homework01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33496764"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4005/api/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4005",
+							"path": [
+								"api",
+								"courses"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "794"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"31a-4hZXfHjSNlMJwYEXd62PqZILtoI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 05 Apr 2024 15:00:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"661010af5cb7d0a8706c032e\",\n        \"title\": \"Introduction to Python\",\n        \"numberOfClasses\": 10,\n        \"trainer\": \"John Doe\",\n        \"assisstant\": \"Jane Doe\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c032f\",\n        \"title\": \"Data Analysis with Pandas\",\n        \"numberOfClasses\": 8,\n        \"trainer\": \"Alice Smith\",\n        \"assisstant\": \"Bob Smith\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c0330\",\n        \"title\": \"Machine Learning with Scikit-learn\",\n        \"numberOfClasses\": 12,\n        \"trainer\": \"Charlie Brown\",\n        \"assisstant\": \"David Lee\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c0331\",\n        \"title\": \"Web Development with Django\",\n        \"numberOfClasses\": 15,\n        \"trainer\": \"Emily Jones\",\n        \"assisstant\": \"Frank Garcia\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c0332\",\n        \"title\": \"Deep Learning with TensorFlow\",\n        \"numberOfClasses\": 18,\n        \"trainer\": \"Grace Miller\",\n        \"assisstant\": \"Henry Williams\",\n        \"students\": []\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4005/api/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4005",
+							"path": [
+								"api",
+								"students"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1171"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"493-1XZFOGD77o6INp++3gbvQQJsfOc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 05 Apr 2024 15:02:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e0\",\n        \"firstName\": \"Alice\",\n        \"lastName\": \"Johnson\",\n        \"age\": 25,\n        \"email\": \"alice.johnson@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e1\",\n        \"firstName\": \"Bob\",\n        \"lastName\": \"Smith\",\n        \"age\": 30,\n        \"email\": \"bob.smith@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e2\",\n        \"firstName\": \"Charlie\",\n        \"lastName\": \"Brown\",\n        \"age\": 28,\n        \"email\": \"charlie.brown@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e3\",\n        \"firstName\": \"David\",\n        \"lastName\": \"Lee\",\n        \"age\": 32,\n        \"email\": \"david.lee@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e4\",\n        \"firstName\": \"Emily\",\n        \"lastName\": \"Jones\",\n        \"age\": 27,\n        \"email\": \"emily.jones@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e5\",\n        \"firstName\": \"Frank\",\n        \"lastName\": \"Garcia\",\n        \"age\": 35,\n        \"email\": \"frank.garcia@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e6\",\n        \"firstName\": \"Grace\",\n        \"lastName\": \"Miller\",\n        \"age\": 29,\n        \"email\": \"grace.miller@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e7\",\n        \"firstName\": \"Henry\",\n        \"lastName\": \"Williams\",\n        \"age\": 33,\n        \"email\": \"henry.williams@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e8\",\n        \"firstName\": \"Isabella\",\n        \"lastName\": \"Taylor\",\n        \"age\": 26,\n        \"email\": \"isabella.taylor@email.com\"\n    },\n    {\n        \"_id\": \"661010de5cb7d0a8706cc7e9\",\n        \"firstName\": \"James\",\n        \"lastName\": \"Wilson\",\n        \"age\": 31,\n        \"email\": \"james.wilson@email.com\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4005/api/courses/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4005",
+							"path": [
+								"api",
+								"courses",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "661010af5cb7d0a8706c0332"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a-bAsFyilMr4Ra1hIU5PyoyFRunpI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 05 Apr 2024 15:35:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4005/api/trainers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4005",
+							"path": [
+								"api",
+								"trainers"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "343"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"157-unJF7lfG+HJ7HjojLDO3rN+Y95E\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 11:51:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"6610350609a8a1d2a4bfbda9\",\n        \"firstName\": \"Michael\",\n        \"lastName\": \"Jordan\",\n        \"age\": 59\n    },\n    {\n        \"_id\": \"6610350609a8a1d2a4bfbdaa\",\n        \"firstName\": \"Serena\",\n        \"lastName\": \"Williams\",\n        \"age\": 41\n    },\n    {\n        \"_id\": \"6610350609a8a1d2a4bfbdab\",\n        \"firstName\": \"Usain\",\n        \"lastName\": \"Bolt\",\n        \"age\": 36\n    },\n    {\n        \"_id\": \"6610350609a8a1d2a4bfbdac\",\n        \"firstName\": \"Maria\",\n        \"lastName\": \"Sharapova\",\n        \"age\": 35\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4005/api/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4005",
+							"path": [
+								"api",
+								"courses"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "534"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"216-TksRlUNot3nfSbl/R2uzm9bMwR4\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Apr 2024 11:53:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"661010af5cb7d0a8706c0331\",\n        \"title\": \"Web Development with Django\",\n        \"numberOfClasses\": 15,\n        \"assisstant\": \"Frank Garcia\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c0330\",\n        \"title\": \"Machine Learning with Scikit-learn\",\n        \"numberOfClasses\": 12,\n        \"assisstant\": \"David Lee\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c032f\",\n        \"title\": \"Data Analysis with Pandas\",\n        \"numberOfClasses\": 8,\n        \"assisstant\": \"Bob Smith\",\n        \"students\": []\n    },\n    {\n        \"_id\": \"661010af5cb7d0a8706c032e\",\n        \"title\": \"Introduction to Python\",\n        \"numberOfClasses\": 10,\n        \"assisstant\": \"Jane Doe\",\n        \"students\": []\n    }\n]"
+				}
+			]
+		}
+	]
+}
